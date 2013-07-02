@@ -1,0 +1,21 @@
+Puerto Rico's Health Information Directory API.
+
+Developed using Grails 2.2.1
+
+
+To use:
+1- Login using credentials username:me password: password
+2- Navigate to  ListProfessionalsController to see results.
+3- Field based security is defined in the Manage Fields in Roles
+
+
+Features:
+Spring Security Enabled
+Brute Force Detector for Login Attempts
+Flexible Design based on field based and role based security
+Data is exposed as JSON
+
+Future Enhancements:
+Include more methods that filter results
+Include method for validating the information of a professional
+Include navigation
